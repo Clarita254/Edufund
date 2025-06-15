@@ -1,0 +1,26 @@
+.signup-page {
+  background-color: #f5fdf6;
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-success {
+  background-color: #2e8b57;
+  border-color: #2e8b57;
+}
+
+.btn-success:hover {
+  background-color: #256c45;
+  border-color: #256c45;
+}
+
+.heading{
+    color:#145c41;
+    font-weight:600;
+}
