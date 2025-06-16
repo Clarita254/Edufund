@@ -11,7 +11,7 @@ return(
 <Router>
  
   <Routes>
-    <Route path="/signupPage" element={<SignUp />} />
+    <Route path="/signup" element={<SignUp />} />
     
   </Routes>
 </Router>
