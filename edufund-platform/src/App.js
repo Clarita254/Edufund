@@ -10,7 +10,7 @@ function App(){
 
 return(
 <Router>
- 
+ <Topnav/>
   <Routes>
     <Route path="/" element={<Navigate to="/signup" />} />
     <Route path="/signup" element={<SignUp />} />
