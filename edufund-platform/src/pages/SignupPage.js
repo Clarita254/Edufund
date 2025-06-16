@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 
 const SignupPage = () => {
   return (
+    <div className="signup-wrapper">
     <div className="container signup-page py-5">
       <h1 className="text-center mb-4 heading">Create Your EduFund Account</h1>
       <div className="row justify-content-center">
@@ -44,7 +45,7 @@ const SignupPage = () => {
           </div>
         </div>
       </div>
-
+      </div>
       <Footer />
     </div>
   );
