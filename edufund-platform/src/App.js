@@ -1,20 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Topnav from "./components/topnav";
-import SignIn from "./pages/SignInPage";
 
+import SignUp from "./pages/SignupPage";
+
+import Topnav from "./components/topnav";
 import {Navigate} from "react-router-dom";
+
 
 function App(){
 
 return(
 <Router>
-  <Topnav />
+ <Topnav/>
   <Routes>
-
-    <Route path="/" element={<Navigate to="/signin" />} />
+    <Route path="/" element={<Navigate to="/signup" />} />
+    <Route path="/signup" element={<SignUp />} />
     
-    <Route path="/signin" element={<SignIn />} />
+
   </Routes>
 </Router>
 
