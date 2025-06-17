@@ -1,8 +1,6 @@
 import React from "react";
 import "../styles/SignUp.css";
 import Footer from "../components/Footer";
-
-
 const SignupPage = () => {
   return (
     <div className="signup-wrapper">
