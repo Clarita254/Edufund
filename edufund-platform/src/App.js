@@ -2,10 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import SignUp from "./pages/SignupPage";
-
+import DonationHistory from "./pages/DonationHistory";
 import Topnav from "./components/topnav";
-import {Navigate} from "react-router-dom";
-
 
 function App(){
 
@@ -13,9 +11,9 @@ return(
 <Router>
  <Topnav/>
   <Routes>
-    <Route path="/" element={<Navigate to="/signup" />} />
-    <Route path="/signup" element={<SignUp />} />
     
+    <Route path="/signup" element={<SignUp />} />
+    <Route path="/donation-history" element={<DonationHistory />} />
 
   </Routes>
 </Router>

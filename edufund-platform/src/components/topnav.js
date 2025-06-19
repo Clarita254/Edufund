@@ -2,6 +2,7 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
 const Topnav = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm px-3">
@@ -34,7 +35,7 @@ const Topnav = () => {
               <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/donations">Donations</Link>
+              <Link className="nav-link" to="/donation-history">Donation History</Link>
             </li>
           </ul>
 
@@ -59,6 +60,7 @@ const Topnav = () => {
             <Link to="/signin" className="btn btn-success">
               Sign In
             </Link>
+            
           </div>
         </div>
       </div>
