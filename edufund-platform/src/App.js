@@ -5,6 +5,7 @@ import SignUp from "./pages/SignupPage";
 
 import Topnav from "./components/topnav";
 import {Navigate} from "react-router-dom";
+import Leaderboard from "./pages/Leaderboard";
 
 
 function App(){
@@ -15,6 +16,9 @@ return(
   <Routes>
     <Route path="/" element={<Navigate to="/signup" />} />
     <Route path="/signup" element={<SignUp />} />
+     <Route path="/Leaderboard" element={<Leaderboard />} />
+    
+    
     
 
   </Routes>

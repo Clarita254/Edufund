@@ -1,0 +1,67 @@
+
+
+.logo {
+  font-weight: bold;
+  color: #2d8f55;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a,
+.logout-btn {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-btn:hover,
+nav ul li a:hover {
+  color: #2d8f55;
+}
+
+.main {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.rank {
+  font-weight: bold;
+}
+
+.amount {
+  color: #2d8f55;
+}
