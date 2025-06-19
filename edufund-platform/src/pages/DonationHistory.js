@@ -166,9 +166,10 @@ const [donations, setDonations] = useState([]);
         </div>
       )}
 
-   <Footer />
+ <Footer />  
 </div>
   );
-};
-export default DonationHistory;
 
+};
+
+export default DonationHistory;
